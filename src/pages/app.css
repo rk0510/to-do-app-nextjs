@@ -1,0 +1,98 @@
+ .add-btn{
+  width:70px;
+  padding:10px 10px;
+  font-size:18px;
+  border-radius: 10px;
+  border:0;
+  background-color: rgb(244, 188, 85);
+  cursor: pointer;
+
+}
+.container{
+  background:rgba(18, 142, 225, 0.291);
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color: #485a4b;
+  min-width: 450px;
+  min-height: 650px;
+  padding:30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 4px 3px 50px black ;
+}
+.header{
+  color:#ffffff;
+  text-align: center;
+  margin:30px 0;
+}
+
+.task-input{
+  outline:none;
+  width:250px;
+  padding:10px;
+  margin-right: 20px;
+  font-size: 22px;
+  color:#0e0707;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+.list-item{
+  display:flex;
+  margin:20px 0;
+  border-radius: 10px;
+  padding:10px;
+  max-height: 30px;
+  font-size:larger;
+  text-align: center;
+  align-items: center;
+ justify-content: space-between;
+ border: 2px solid white;
+
+
+  
+}
+ul{
+  list-style: none;
+  padding:0px;
+}
+.edit-btn{
+    color:yellow;
+    /* margin-right: 10px; */
+    background-color: #485a4b;
+    box-shadow: none;
+    border:none;
+    font-size:x-large;
+  
+  }
+  .delete-btn{
+    margin-right: 10px;
+    background-color: #485a4b;
+    box-shadow: none;
+    border:none;
+    font-size:x-large;
+    color: rgba(241, 68, 68, 0.947);
+  }
+  .save-btn{
+    margin-right: 10px;
+    background-color: #485a4b;
+    box-shadow: none;
+    border:none;
+    font-size:x-large;
+    color:rgb(58, 228, 58);
+  }
+
+  .cancel-btn{
+    margin-right: 10px;
+    background-color: #485a4b;
+    box-shadow: none;
+    border:none;
+    font-size:x-large;
+    color: rgba(241, 68, 68, 0.947);
+  }
+
